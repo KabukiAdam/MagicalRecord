@@ -157,6 +157,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		664C453918796AA9005920B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7CF9AF9174988CF008D9D13 /* Expecta.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C4416F917FF3F4A00978F09;
+			remoteInfo = "ExpectaTests-XCTest";
+		};
 		9099496C17C2FD5C00BC2B5C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C721C7A213D0A3750097AB6F /* Project object */;
@@ -706,6 +713,7 @@
 				C7CF9B03174988D0008D9D13 /* libExpecta-iOS.a */,
 				C7CF9B05174988D0008D9D13 /* ExpectaTests.octest */,
 				C7CF9B07174988D0008D9D13 /* Expecta-iOSTests.octest */,
+				664C453A18796AA9005920B6 /* ExpectaTests-XCTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -938,6 +946,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		664C453A18796AA9005920B6 /* ExpectaTests-XCTest.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ExpectaTests-XCTest.xctest";
+			remoteRef = 664C453918796AA9005920B6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		909B48BF17C2EB4400CE8C5E /* libSpecta.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1240,7 +1255,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				WARNING_CFLAGS = "-Wdocumentation";
@@ -1270,7 +1285,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				WARNING_CFLAGS = "-Wdocumentation";
 			};
